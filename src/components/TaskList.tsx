@@ -26,6 +26,8 @@ export function TaskList() {
         isComplete: false,
       },
     ]);
+
+    setNewTaskTitle("");
   }
 
   function handleToggleTaskCompletion(id: number) {
